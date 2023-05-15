@@ -10,13 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="canonical" href="https://www.fragments.com/index.html">
-    <link rel="stylesheet" href="css/css.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <style>
-        footer {
-            top: 1000px;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="../css/resources.css">
+    <link rel="stylesheet" href="../css/nav.css">
 </head>
 
 <body>
@@ -24,17 +20,17 @@
         <header>
             <nav>
                 <ul>
-                    <li><img src="pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
+                    <li><img src="../pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
                             onclick="location.href='../index.html'" onmouseover="style.cursor='pointer'" class="logo">
                     </li>
                     <li onclick="location.href='../index.html'" onmouseover="style.cursor='pointer'"><a class="aktiv"
                             href="../index.html">home</a></li>
-                    <li onclick="location.href='calendar.html'" onmouseover="style.cursor='pointer'"><a
-                            href="calendar.html">ressourcen</a></li>
-                    <li onclick="location.href='teams.html'" onmouseover="style.cursor='pointer'"><a
-                            href="teams.html">preise</a></li>
-                    <li onclick="location.href='download.html'" onmouseover="style.cursor='pointer'"><a
-                            href="download.html">installieren</a></li>
+                    <li onclick="location.href='resources.html'" onmouseover="style.cursor='pointer'"><a
+                            href="resources.html">ressourcen</a></li>
+                    <li onclick="location.href='pricing.html'" onmouseover="style.cursor='pointer'"><a
+                            href="pricing.html">preise</a></li>
+                    <li onclick="location.href='install.html'" onmouseover="style.cursor='pointer'"><a
+                            href="install.html">installieren</a></li>
                     <li onclick="location.href='about.html'" onmouseover="style.cursor='pointer'"><a
                             href="about.html">über uns</a></li>
                     <li onclick="location.href='login.html'" onmouseover="style.cursor='pointer'" class="float-right"><a
@@ -53,11 +49,57 @@
             </div>
         </header>
         <main>
-            <div class="row firstRow">
+            <div class="firstRow list">
                 <ul>
-                    <li class="knopf">Patch notes</li>
-                    <li class="knopf">Begriffserklärungen</li>
-                    <li class="knopf">Wiki & Guides</li>
+                    <li class="knopf">
+                        <article>
+                            <h2>Patch Notes</h2>Wir danken allen Benutzern, die diese Fehler gemeldet haben, und setzen
+                            unsere Anstrengungen fort, Fragments weiterhin zu verbessern und ein reibungsloses
+                            Benutzererlebnis zu gewährleisten. Wenn Sie weitere Probleme oder Vorschläge haben, zögern
+                            Sie nicht, uns zu kontaktieren.
+                            <details>
+                                <summary>
+                                    Genauere Informationen
+                                </summary>
+                                <p>
+                                    Patchnotes für Fragments (Version 1.1)<br>
+                                    Folgende Bugs wurden behoben:<br>
+                                    (Die Bugs sind nach schweregrad sotiert)
+                                </p>
+                                <ol type="I" start="1">
+                                    <div class="schwerwiegend">
+                                    <li>Ein kritischer Fehler wurde behoben, der dazu führte, dass die Anwendung
+                                        abstürzte,
+                                        wenn große Dateien geteilt wurden.</li>
+                                    <li>Ein Problem wurde behoben, bei dem manchmal Nachrichten doppelt angezeigt
+                                        wurden.
+                                    </li>
+                                    <li>Ein Fehler wurde behoben, der verhinderte, dass Benachrichtigungen für neue
+                                        Chatnachrichten korrekt angezeigt wurden. </li>
+                                    </div>
+                                    <div class="mittel">
+                                    <li value="1">Ein Problem wurde behoben, bei dem die Bildschirmfreigabe in
+                                        bestimmten Fällen fehlschlug.</li>
+                                    <li>Ein Fehler wurde behoben, der dazu führte, dass manchmal die Sprach- und
+                                        Videoqualität in Anrufen beeinträchtigt war.</li>
+                                    <li>Ein Problem wurde behoben, bei dem das Hinzufügen von Teilnehmern zu einem
+                                        Gruppenanruf fehlschlug.</li>
+                                    </div>
+                                    <div class="niedrig"> 
+                                    <li value="1">Ein visuelles Problem wurde behoben, bei dem einige Symbole in der
+                                        Benutzeroberfläche unscharf dargestellt wurden.</li>
+                                    <li>Ein Fehler wurde behoben, bei dem die Sortierung von Dateien in Ordnern nicht
+                                        immer korrekt funktionierte.</li>
+                                    <li>Ein Problem wurde behoben, bei dem Benutzer gelegentlich Schwierigkeiten hatten,
+                                        Emojis in ihren Nachrichten zu verwenden.</li>
+                                    </div>
+                                </ol>
+                            </details>
+                        </article>
+                    </li>
+                    <!--<li class="knopf"><span class="list-knopf"></span>Begriffserklärungen</span></li>
+                    <li class="knopf"><span class="list-knopf"></span>Wiki & Guides</span></li>
+                    -->
                 </ul>
             </div>
         </main>
@@ -65,8 +107,8 @@
     <div class="footer">
         <footer>
             <div class="footer-logo">
-                <img src="pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
-                    onclick="location.href='index.html'" onmouseover="style.cursor='pointer'" class="footer-logo">
+                <img src="../pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
+                    onclick="location.href='../index.html'" onmouseover="style.cursor='pointer'" class="footer-logo">
             </div>
 
             <div class="bottom">

@@ -1,0 +1,60 @@
+footer {
+    top: 2600px;
+}
+
+.list{
+    padding: 50px;
+    width: 900px;
+}
+.list .knopf{
+    box-sizing: border-box;
+    width: 600px;
+    height: 1200px;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 150px;
+}
+
+summary{
+    background-color: #2a6bd2;
+    color: white;
+    border-radius: 25px;
+    height: 30px;
+    width: 580px;
+    padding: 10px;
+}
+details{
+    background-color: rgba(42, 107, 210,0.5);
+    border-radius: 25px;
+    height: fit-content;
+    margin-top: 30px;
+}
+details p{
+    margin: 30px;
+}
+
+details li{
+    margin: 10px;
+    width:400px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.schwerwiegend{
+    background-color: lightcoral;
+    padding: 10px;
+    padding-bottom:20px;
+    border-radius: 25px 25px 0 0;
+}
+.mittel{
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    padding-bottom:20px;
+
+}
+.niedrig{
+    background-color: lightgreen;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 0 0 25px 25px;
+}
