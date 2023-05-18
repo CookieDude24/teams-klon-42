@@ -44,12 +44,9 @@ nav li a {
     text-decoration: none;
 
     border-radius: 60px;
-
-    transition: 200ms;
 }
 
 nav li a:hover {
-    transition: 200ms;
     background-color: #2a6bd2;
 
 }
@@ -57,6 +54,9 @@ nav li a:hover {
 .logo {
     height: 50px;
     padding: 10px;
+}
+.logo:hover{
+    transform: scale(102%);
 }
 
 
@@ -77,10 +77,13 @@ nav li a:hover {
 }
 
 .float-right a:hover{
-    transition: 200ms;
-    background-color: #2a6bd2;
+    background-color: #2054a7;
 }
 
 #farbigerh1 {
     color: orange;
+}
+
+.active{
+    background-color: #555;
 }

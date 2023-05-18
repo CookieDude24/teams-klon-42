@@ -93,3 +93,51 @@ footer a{
     position: relative;
     top: 80px;
 }
+
+#kaufen {
+    background-color: #2a6bd2;
+    color: white;
+    width: 1000px;
+    height: 300px;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 60px;
+
+}
+
+#ueberschrift {
+    font-size: xx-large;
+}
+
+#knoepfe a {
+    padding: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: large;
+    border: 2px white solid;
+}
+
+#knoepfe {
+    margin-top: 100px;
+}
+
+#testen-knopf {
+    background-color: white;
+    color: #2a6bd2;
+    margin-right: 50px;
+}
+
+#kaufen-knopf {
+    background-color: #2a6bd2;
+    color: white;
+}
+
+#kaufen-knopf:hover,
+#testen-knopf:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
