@@ -7,13 +7,17 @@ nav ul {
     top: 10px;
     z-index: 100;
     border-radius: 50px;
-    box-sizing: bordr-box;
+    box-sizing: border-box;
 }
 
 nav,
 header,
 nav ul {
     width: 1000px;
+}
+
+header {
+    height: 300px;
 }
 
 nav li {
@@ -41,18 +45,13 @@ nav li a {
 
     border-radius: 60px;
 
-    transition: 500ms;
+    transition: 200ms;
 }
 
 nav li a:hover {
     transition: 200ms;
     background-color: #2a6bd2;
 
-}
-
-nav li:hover{
-    scale: 102%;
-    transition: 500ms;
 }
 
 .logo {
@@ -75,6 +74,11 @@ nav li:hover{
     padding-right: 40px;
     border-radius: 60px;
 
+}
+
+.float-right a:hover{
+    transition: 200ms;
+    background-color: #2a6bd2;
 }
 
 #farbigerh1 {

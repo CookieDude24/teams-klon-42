@@ -2,10 +2,12 @@
     font-family:sans-serif, Arial,Helvetica ;
     margin: 0;
     padding: 0;
+    transition: 200ms;
 }
 body{
     overflow-x: hidden;
     font-size: 16px;
+    color:#333;
 }
 .main{
     width: 1000px;
@@ -13,8 +15,7 @@ body{
 }
 
 main{
-    position:absolute;
-    top: 50px;
+    margin-top: 50px;
     z-index: 50;
 }
 
@@ -43,10 +44,6 @@ main{
 .row, .firstRow{
     overflow: hidden;
     padding: 10px;
-}
-
-.firstRow{
-    margin-top: 300px;
 }
 
 .banner{
@@ -80,8 +77,8 @@ footer{
     background-color: #333;
     text-align: center;
     padding: 5px 0;
-    position: relative;
     color: white;
+    margin-top: 100px;
 }
 footer a{
     color: white;
